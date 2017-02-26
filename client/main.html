@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/d3-tip.css">
+  <link rel="stylesheet" href="js/jQRangeSlider-5.7.2/css/iThing-min.css">
+
+  <title>DWVis</title>
+</head>
+
+<body>
+  {{> searchBar}}
+</body>
+
+<template name="searchBar">
+  <div class='col-xs-3'>
+    <div id="slider"></div>
+  </div>
+  <div class='clearfix'></div>
+  <div style='margin-top:10px;margin-left:10px'>
+    <div class="input-group col-xs-3">
+      <input id="search" class="form-control" placeholder="Search">
+      <div class="input-group-btn">
+        <button class="btn btn-info">
+          <span class="fa fa-search"></span>
+        </button>
+       </div>
+    </div>
+  </div>
+</template>
